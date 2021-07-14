@@ -128,3 +128,6 @@ function mouseDragged(){
 function mouseReleased(){
   connection.fly();
 }
+
+function keyPressed(){if(keyCode=32){connection.attach(polygon)}}
+
